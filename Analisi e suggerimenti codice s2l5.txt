@@ -1,0 +1,36 @@
+Analisi e suggerimenti codice s2l5:
+
+Riga 3/4/5/6/13 = Per avere più ordine sarebbe meglio eliminare lo spazio tra nome, funzione e ()
+Riga 9 = Suggerisco di aggiungere uno spazio aggiuntivo tra apertura main e parentesi graffa del blocco codice
+Riga 12 = Parentesi graffe inutili poiché la variabile è singola
+Riga 14 = Non deve essere inserito "%d, ma "%c" perchè si deve fare riferimento ai caratteri e non ai numeri, inoltre introudiciamo lo spazio in %c per rimuovere il problema dell'input.
+Riga 18 = Inseriamo lettera minuscola a,b e c in modo tale da facilitare l'inserimento all'utente.
+Riga 19/20/29/61/75 = Posizionamento non corretto per garantire pulizia e organizzazione.
+Riga 26/27 = Suggerisco l'inserimento del comando di default, così l'utente in caso di digitazione diversa degli elemnti specificati viene avvisato che c'è l'input errato.
+Riga 28 = Suggerisco l'inserimento un ciclo do-while così l'utente può scegliere se uscire dal programma
+Riga 45 = "a,b = 0" erroe di sintassi poichè fa riferimento solamente alla b, quindi sarebbe corretto scrivere a = 0, b = 0
+Riga 46 = Per garantire un output pulito è meglio inserire /n nella scrittura di stampa
+Riga 47 = %d al posto di %f perchè non è un floate e quindi è un numero intero considerando l'int short.
+Riga 50 = Per ottenere il risultato esatto per questa parte di codice usiamo int prodotto = (int)a*b
+Riga 52 = In short int va usato %hd
+Riga 58 = Stesso problema della riga 45
+Riga 61 = errore di scrittura in italiano (denominatore)
+Riga 62 = Suggerisco inserimento di un controllo sul denominatore che deve essere diverso da 0.
+Riga 64 = errore di sintassi, dobbiamo inserire / al posto di % inotra aggiungiamo float al posto di int per ricevere numeri decimali
+Riga 66 = sostituiamo l'ultimo %d inseriamo %f per via della variabile divisione --> float.
+Riga 77 = Suggerisco l'introduzione di un controllo nel caso in cui la stringa inserita abbia più di 9 caratteri.
+
+
+╔═══╗         ╔╗             ╔═══╗                    ╔╗
+║╔═╗║         ║║             ║╔═╗║                    ║║
+║║ ╚╝  ╔╗   ╔╗╔══╗║╚═╗╔══╗╔═╗║╚══╗╔══╗╔╗╔╗╔══╗    ╔═╝║
+║║ ╔╗  ║║   ║║║╔╗║║╔╗║║╔╗║║╔╝╚══╗║║╔╗║║║║║╚ ╗  ║    ║╔╗║
+║╚═╝║║╚═╝║║╚╝║║║║║║║═╣║║   ║╚═╝║║╚╝║║╚╝║║╚╝╚╗║╚╝║
+╚═══╝╚═╗╔╝║╔═╝╚╝╚╝╚══╝╚╝   ╚═══╝╚═╗║╚══╝╚═══╝╚══╝
+     ╔═╝║     ║║   ║║
+     ╚══╝     ╚╝   ╚╝
+
+
+
+
+
